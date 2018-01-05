@@ -27,7 +27,7 @@ allprojects {
 ```
 dependencies {
 	...
-	compile 'com.github.NMOBS:tagonandroid:1.0.2'
+	compile 'com.github.NMOBS:tagonandroid:1.0.3'
 	...
 }
 ```
