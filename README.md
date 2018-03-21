@@ -48,6 +48,13 @@ android:configChanges="keyboardHidden|orientation|screenSize"/>
 TagOn.with(this);
 ```
 
+* To enable debug and detailed logging mode, add these lines after `TagOn.with(this)`
+
+```
+TagOn.singleton().setDebugMode(true);
+TagOn.singleton().setLoggerEnabled(true);
+```
+
 ## <a name="fullpage_integration"></a> FullPage Integration
 
 * In your Activity, declare variable for your fullpage ad
